@@ -62,13 +62,8 @@ select {
   padding: 1.6rem 0;
 }
 
-.logo {
-  width: 2.2rem;
-  stroke: white;
-}
-
-.logo:hover {
-  stroke: var(--hover-color);
+img {
+    width: 400px;
 }
 
 .nav-container {
