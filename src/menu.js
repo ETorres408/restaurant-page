@@ -1,3 +1,15 @@
+import taquitosImage from "../assets/images/taquitos.jpg";
+import bbqShrimpImage from "../assets/images/bbq-shrimp.jpg";
+import chileanSeabassImage from "../assets/images/chilean-seabass.jpg";
+import yellowtailImage from "../assets/images/yellowtail.jpg";
+import clamlinguineImage from "../assets/images/clam-linguini.jpg";
+import spinylobsterImage from "../assets/images/spiny-lobster.jpg";
+
+
+
+
+
+
 class MenuItem {
   constructor(name, description, image) {
     this.name = name;
