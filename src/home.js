@@ -1,3 +1,4 @@
+
 function createHomeCard(titleText, descriptionText) {
   const homeCard = document.createElement("div");
   homeCard.classList = "home-card-container";
@@ -12,7 +13,7 @@ function createHomeCard(titleText, descriptionText) {
 
   /* const image = document.createElement("img");
   image.classList = "home-card-image";
-  image.src = imageSrc;
+  image.src = kingsImage;
   image.alt = "HUH?";
   */
 
