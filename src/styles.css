@@ -54,7 +54,8 @@ select {
 .nav-wrapper {
   display: flex;
   align-items: center;
-  margin: 0 8rem 0 6rem;
+  padding: 0 3rem;
+  margin-bottom: 100px;
   min-width: 300px;
 }
 
@@ -62,8 +63,8 @@ select {
   padding: 1.6rem 0;
 }
 
-img {
-    width: 400px;
+.logo {
+  width: 400px;
 }
 
 .nav-container {
@@ -92,10 +93,10 @@ li {
 }
 
 .home-card-container {
-  border: 1px solid white;
   border-radius: 20px;
-  background-color: black;
-  margin: 50px 200px;
+  background-color: var(--card-background-color);
+  width: min(90%, 600px);
+  margin: 0 auto;
 }
 
 .home-card-title {
@@ -107,13 +108,17 @@ li {
   margin-top: 15px;
 }
 
+.home-card-image {
+  margin: 10px auto;
+}
+
 .menu-card {
   border: 2px solid pink;
   display: grid;
-  margin: 50px 100px;
+  margin: 0 auto;
   width: min(90%, 1000px);
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 10px;
   background-color: var(--card-background-color);
 }

@@ -1,3 +1,4 @@
+import kingsImg from "../assets/images/kings.jpg"
 
 function createHomeCard(titleText, descriptionText) {
   const homeCard = document.createElement("div");
@@ -11,13 +12,12 @@ function createHomeCard(titleText, descriptionText) {
   description.classList = "home-card-description";
   description.textContent = descriptionText;
 
-  /* const image = document.createElement("img");
+  const image = document.createElement("img");
   image.classList = "home-card-image";
-  image.src = kingsImage;
+  image.src = kingsImg;
   image.alt = "HUH?";
-  */
 
-  homeCard.append(title, description);
+  homeCard.append(title, description, image);
 
   return homeCard;
 }
