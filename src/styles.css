@@ -55,7 +55,7 @@ select {
   display: flex;
   align-items: center;
   padding: 0 3rem;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
   min-width: 300px;
 }
 
@@ -113,16 +113,32 @@ li {
 }
 
 .menu-card {
-  border: 2px solid pink;
   display: grid;
-  margin: 0 auto;
-  width: min(90%, 1000px);
+  margin: 75px auto;
+  width: min(90%, 1300px);
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
-  background-color: var(--card-background-color);
+  gap: 1rem;
 }
 
-.menu-card div {
-  border: 1px solid yellow;
+.item-card {
+  background-color: var(--card-background-color);
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.item-card h2,
+.item-card p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.item-price {
+  font-weight: var(--bold-font);
+}
+
+.item-image {
+  width: 100%;
+  aspect-ratio: 16 / 9; 
+  object-fit: cover;
+  border-radius: 20px;
 }
