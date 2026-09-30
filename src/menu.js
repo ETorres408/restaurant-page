@@ -5,9 +5,6 @@ import yellowtailImage from "../assets/images/yellowtail.jpg";
 import clamLinguineImage from "../assets/images/clam-linguine.jpg";
 import spinyLobsterImage from "../assets/images/spiny-lobster.jpg";
 
-
-
-//creates menu item
 class MenuItem {
   constructor(name, description, price, image) {
     this.name = name;
@@ -17,7 +14,7 @@ class MenuItem {
   }
 }
 
-//creates card for menu item
+//creates card for menu items
 function createItemCard(menuItem) {
   const itemCard = document.createElement("div");
   itemCard.classList.add("item-card");
@@ -90,6 +87,7 @@ export function loadMenu() {
   //clears the content if there is any
   content.textContent = "";
 
+  //create menu card container
   const menuDiv = document.createElement("div");
   menuDiv.classList.add("menu-card");
 
